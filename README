@@ -1,3 +1,11 @@
-pwgen is a tool that keeps track of your passwords locally. Its behavior is
-similar to that of LastPass, generating a new random password for every site
-for which you don't already have a password.
+- Compile newpw.c somewhere and add it to your path. It's straight up C, and
+  just serves to generate a new password of any length passed to it.
+
+- Obtain aescrypt from http://www.aescrypt.com/download.html and put it
+  somewhere in your path - it allows you to encrypt a file with a password of
+  your choosing and will be what we use to encrypt our keychain.
+
+- Ensure you have $XDG_DATA_HOME defined in your environment variables and run
+  pwgen with
+
+  ./pwgen
