@@ -1,0 +1,3 @@
+pwgen is a tool that keeps track of your passwords locally. Its behavior is
+similar to that of LastPass, generating a new random password for every site
+for which you don't already have a password.
