@@ -2,7 +2,7 @@
   just serves to generate a new password of any length passed to it.
 
 - Obtain aescrypt from http://www.aescrypt.com/download.html and put it
-  somewhere in your path - it allows you to encrypt a file with a password of
+  in /usr/bin or thereabouts - it allows you to encrypt a file with a password of
   your choosing and will be what we use to encrypt our keychain.
 
 - Ensure you have $XDG_DATA_HOME defined in your environment variables and run
